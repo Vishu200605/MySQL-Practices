@@ -1,0 +1,31 @@
+-- ***USING A DATABASE 
+-- USE Harry_SQL;
+
+-- *** CREATING A TABLE IN SQL 
+-- CREATE TABLE user(
+-- ID INT PRIMARY KEY,
+-- name VARCHAR(20) NOT NULL,
+-- email VARCHAR(25) NOT NULL UNIQUE,
+-- gender ENUM("MALE","FEMALE","OTHER"),
+-- dob DATE NOT NULL
+-- );
+
+-- *** DISPLAYING THE TABLE  
+-- SELECT * FROM user;
+
+-- *** DISPLAYING SELECTED DATA FROM TABLE
+-- SELECT name,email FROM user; 
+
+-- *** ATLERING TABLE METHODS  
+
+-- *** 1) ADDING A COLUMN  
+-- ALTER TABLE user ADD roll_no INT;
+
+-- ***2) DROPPING A COLUMN
+-- ALTER TABLE user DROP roll_no;   
+
+-- ***3) MOIFYING A TABLE 
+-- ALTER TABLE user MODIFY COLUMN name VARCHAR(100);
+SELECT * FROM user;
+
+
